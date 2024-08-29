@@ -1,0 +1,14 @@
+
+
+POST http://localhost:3000/weatherSearch
+Content-Type: application/json
+
+{
+    "search":"Siddipet",
+    "key":"43cb9982139dd169fa8c54b44a128b5c"
+
+}
+
+###
+// get the latest weather data information 
+GET http://localhost:3000/weather
